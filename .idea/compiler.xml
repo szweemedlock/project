@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="project-common" />
+        <module name="projectmanagerweb" />
+        <module name="project-manager-web" />
+        <module name="project-manager-service" />
+        <module name="projectcommon" />
+        <module name="projectmanagerservice" />
+        <module name="projectmanagerdao" />
+        <module name="project-manager-dao" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="project" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="project-common" options="-parameters" />
+      <module name="project-manager-dao" options="-parameters" />
+      <module name="project-manager-service" options="-parameters" />
+      <module name="project-manager-web" options="-parameters" />
+      <module name="projectcommon" options="-parameters" />
+      <module name="projectmanagerdao" options="-parameters" />
+      <module name="projectmanagerservice" options="-parameters" />
+      <module name="projectmanagerweb" options="-parameters" />
+    </option>
+  </component>
+</project>

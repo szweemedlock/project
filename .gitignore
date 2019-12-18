@@ -1,0 +1,5 @@
+# Project exclude paths
+/projectparent/project-common/target/
+/projectparent/project-manager/project-manager-dao/target/
+/projectparent/project-manager/project-manager-service/target/
+/projectparent/project-manager/project-manager-web/target/
